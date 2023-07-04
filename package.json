@@ -1,0 +1,25 @@
+{
+  "name": "littledb",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=19.9.0",
+    "npm": ">=9.6.3"
+  },
+  "description": "lowdb sample for 1.125",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "abel@mit.edu",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lowdb": "^1.0.0",
+    "mongodb": "^3.7.4",
+    "mongoose": "^7.3.1"
+  }
+}
